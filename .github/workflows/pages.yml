@@ -31,7 +31,7 @@ jobs:
         run: |
           mkdir _site
           cp CoolAnim.html _site/index.html
-          cp CoolAnim.css CA.png _site/
+          cp CoolAnim.css CA.png google574da1faec1ea81a.html _site/
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v4
